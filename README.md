@@ -41,7 +41,7 @@ curl -X POST http://localhost:3000/orders \
 -d '{
   "customer": "abacaxi123@ethereal.email",
   "items": [{ "productId": 1, "quantity": 1 }],
-  "paymentMethod": "credit_card",
+  "paymentMethod": "creditcard",
   "paymentDetails": { "cardNumber": "1234567812345678", "cvv": "123" }
 }'
 ```
@@ -54,6 +54,7 @@ Matrícula: 202426610040
 
 WALLISON VINICIUS SILVA DE OLANDA
 Matrícula: 202226400001
+
 
 
 
